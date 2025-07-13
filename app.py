@@ -54,5 +54,9 @@ def delete(sno):
     db.session.commit()
     return redirect('/')
 
+@app.route("/about", methods=['GET','POST'])
+def about_page():
+    return render_template('about.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
