@@ -5,8 +5,8 @@ A simple and clean ToDo web application built with Python and Flask. Users can a
 ## 🚀 Features
 
 - Add new tasks
-- Mark tasks as completed
 - Delete tasks
+- Update tasks
 - Persistent storage using SQLite (or your database)
 - Clean UI with HTML/CSS (Bootstrap or custom)
 
